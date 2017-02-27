@@ -1,0 +1,7 @@
+api_protocol = "https"
+enterprise = "snp"
+git_port = "8989"
+organization = "snw-org"
+pipeline = "master"
+server = "SNWChefAutomate"
+user = "SNPAdmin"
