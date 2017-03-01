@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 # Ignore configuration files that may contain sensitive information.
 sites/*/settings*.php
 
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
+=======
+.delivery/cli.toml
+.delivery/cli.toml
+>>>>>>> eb0465a8814664d4e6703b1e77e871f60631d92a
