@@ -1,0 +1,7 @@
+FILE=/var/www/html
+NUMBER="| wc -l"
+GREP=`grep -rnw *.sql -e "Dump completed" $NUMBER`
+if  [ "$GREP" -eq 1 ]
+ then
+   echo " Success: Backup completed for $GREP"
+ fi
